@@ -10,9 +10,9 @@
  * @link      http://phpdoc.org
  */
 
-namespace Mpociot\Reflection\DocBlock\Type;
+namespace Szwss\Reflection\DocBlock\Type;
 
-use Mpociot\Reflection\DocBlock\Context;
+use Szwss\Reflection\DocBlock\Context;
 
 /**
  * Collection

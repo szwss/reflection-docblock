@@ -10,9 +10,9 @@
  * @link      http://phpdoc.org
  */
 
-namespace Mpociot\Reflection\DocBlock;
+namespace Szwss\Reflection\DocBlock;
 
-use Mpociot\Reflection\DocBlock;
+use Szwss\Reflection\DocBlock;
 
 /**
  * Parses a tag definition for a DocBlock.
@@ -59,43 +59,43 @@ class Tag implements \Reflector
      */
     private static $tagHandlerMappings = array(
         'author'
-            => '\Mpociot\Reflection\DocBlock\Tag\AuthorTag',
+            => '\Szwss\Reflection\DocBlock\Tag\AuthorTag',
         'covers'
-            => '\Mpociot\Reflection\DocBlock\Tag\CoversTag',
+            => '\Szwss\Reflection\DocBlock\Tag\CoversTag',
         'deprecated'
-            => '\Mpociot\Reflection\DocBlock\Tag\DeprecatedTag',
+            => '\Szwss\Reflection\DocBlock\Tag\DeprecatedTag',
         'example'
-            => '\Mpociot\Reflection\DocBlock\Tag\ExampleTag',
+            => '\Szwss\Reflection\DocBlock\Tag\ExampleTag',
         'link'
-            => '\Mpociot\Reflection\DocBlock\Tag\LinkTag',
+            => '\Szwss\Reflection\DocBlock\Tag\LinkTag',
         'method'
-            => '\Mpociot\Reflection\DocBlock\Tag\MethodTag',
+            => '\Szwss\Reflection\DocBlock\Tag\MethodTag',
         'param'
-            => '\Mpociot\Reflection\DocBlock\Tag\ParamTag',
+            => '\Szwss\Reflection\DocBlock\Tag\ParamTag',
         'property-read'
-            => '\Mpociot\Reflection\DocBlock\Tag\PropertyReadTag',
+            => '\Szwss\Reflection\DocBlock\Tag\PropertyReadTag',
         'property'
-            => '\Mpociot\Reflection\DocBlock\Tag\PropertyTag',
+            => '\Szwss\Reflection\DocBlock\Tag\PropertyTag',
         'property-write'
-            => '\Mpociot\Reflection\DocBlock\Tag\PropertyWriteTag',
+            => '\Szwss\Reflection\DocBlock\Tag\PropertyWriteTag',
         'return'
-            => '\Mpociot\Reflection\DocBlock\Tag\ReturnTag',
+            => '\Szwss\Reflection\DocBlock\Tag\ReturnTag',
         'see'
-            => '\Mpociot\Reflection\DocBlock\Tag\SeeTag',
+            => '\Szwss\Reflection\DocBlock\Tag\SeeTag',
         'since'
-            => '\Mpociot\Reflection\DocBlock\Tag\SinceTag',
+            => '\Szwss\Reflection\DocBlock\Tag\SinceTag',
         'source'
-            => '\Mpociot\Reflection\DocBlock\Tag\SourceTag',
+            => '\Szwss\Reflection\DocBlock\Tag\SourceTag',
         'throw'
-            => '\Mpociot\Reflection\DocBlock\Tag\ThrowsTag',
+            => '\Szwss\Reflection\DocBlock\Tag\ThrowsTag',
         'throws'
-            => '\Mpociot\Reflection\DocBlock\Tag\ThrowsTag',
+            => '\Szwss\Reflection\DocBlock\Tag\ThrowsTag',
         'uses'
-            => '\Mpociot\Reflection\DocBlock\Tag\UsesTag',
+            => '\Szwss\Reflection\DocBlock\Tag\UsesTag',
         'var'
-            => '\Mpociot\Reflection\DocBlock\Tag\VarTag',
+            => '\Szwss\Reflection\DocBlock\Tag\VarTag',
         'version'
-            => '\Mpociot\Reflection\DocBlock\Tag\VersionTag'
+            => '\Szwss\Reflection\DocBlock\Tag\VersionTag'
     );
 
     /**

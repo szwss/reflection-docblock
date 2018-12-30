@@ -10,9 +10,9 @@
  * @link      http://phpdoc.org
  */
 
-namespace Mpociot\Reflection\DocBlock\Tag;
+namespace Szwss\Reflection\DocBlock\Tag;
 
-use Mpociot\Reflection\DocBlock\Tag;
+use Szwss\Reflection\DocBlock\Tag;
 
 /**
  * Reflection class for a @method in a Docblock.

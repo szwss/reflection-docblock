@@ -10,11 +10,11 @@
  * @link      http://phpdoc.org
  */
 
-namespace Mpociot\Reflection;
+namespace Szwss\Reflection;
 
-use Mpociot\Reflection\DocBlock\Tag;
-use Mpociot\Reflection\DocBlock\Context;
-use Mpociot\Reflection\DocBlock\Location;
+use Szwss\Reflection\DocBlock\Tag;
+use Szwss\Reflection\DocBlock\Context;
+use Szwss\Reflection\DocBlock\Location;
 
 /**
  * Parses the DocBlock for any structure.

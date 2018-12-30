@@ -10,7 +10,7 @@
  * @link      http://phpdoc.org
  */
 
-namespace Mpociot\Reflection\DocBlock;
+namespace Szwss\Reflection\DocBlock;
 
 /**
  * The context in which a DocBlock occurs.

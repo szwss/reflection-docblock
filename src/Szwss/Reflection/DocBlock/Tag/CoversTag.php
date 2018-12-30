@@ -10,7 +10,7 @@
  * @link      http://phpdoc.org
  */
 
-namespace Mpociot\Reflection\DocBlock\Tag;
+namespace Szwss\Reflection\DocBlock\Tag;
 
 /**
  * Reflection class for a @covers tag in a Docblock.
